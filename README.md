@@ -43,7 +43,6 @@ module.exports = config;
 
 ```
 
-These filters help customize problem selection based on your focus areas, allowing you to focus on certain algorithms or techniques, or avoid specific types of problems.
 
 ### updateCache:
 Set this to true when you first use the tool to fetch the latest data from Codeforces. It is **required to run this at least once initially**. Additionally, whenever you update the handles list, you should set updateCache: true to refresh the data. Once the cache is updated, you can set it back to false for faster runs.
@@ -69,6 +68,9 @@ tagsAnd: The tool will only include problems that contain all of the tags listed
 tagsOnly: Limits the results to problems that have only the specified tags (no extra tags).
 
 skipTags: Problems that have any of these tags will be excluded from the results.
+
+These filters help customize problem selection based on your focus areas, allowing you to focus on certain algorithms or techniques, or avoid specific types of problems.
+
 
 ## Run
 ```bash
