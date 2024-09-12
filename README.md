@@ -70,6 +70,11 @@ tagsOnly: Limits the results to problems that have only the specified tags (no e
 
 skipTags: Problems that have any of these tags will be excluded from the results.
 
+## Run
+```bash
+ npm start
+```
+
 
 
 
