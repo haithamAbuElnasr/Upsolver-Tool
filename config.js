@@ -1,7 +1,7 @@
 const { CODEFORCES_TAGS } = require("./tags");
 const { CONTESTS_TYPES } = require("./contestsTypes");
 const config = {
-  updateCache: false, // turn it on only when needed cuse feteching data take a long time
+  updateCache: true, // turn it on only when needed cuse feteching data take a long time
   doNotSpoilContests: true,
   handles: ["Haithom"], // List of handles
   outputFile: "all",
